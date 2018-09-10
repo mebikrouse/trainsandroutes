@@ -1,8 +1,11 @@
 ﻿namespace Solution
 {
+    //Хранит информацию о столкновении маршрутов на некоторой станции.
     class CollisionAtStationCase
     {
+        //Станция, на которой произошло столкновение.
         private int stationKey;
+        //Столкнувшиеся маршруты.
         private IRoute routeA;
         private IRoute routeB;
 

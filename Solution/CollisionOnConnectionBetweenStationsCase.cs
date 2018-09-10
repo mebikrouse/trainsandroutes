@@ -1,9 +1,12 @@
 ﻿namespace Solution
 {
+    //Хранит информацию о столкновении маршрутов на некотором пути между двумя станциями.
     class CollisionOnConnectionBetweenStationsCase
     {
+        //Описывает путь между двумя станциями.
         public class Connection
         {
+            //Станции, между которыми расположен путь.
             private int stationAKey;
             private int stationBKey;
 
@@ -18,7 +21,9 @@
             }
         }
 
+        //Путь, на котором произошло столкновение.
         private Connection stations;
+        //Столкнувшиеся маршруты.
         private IRoute routeA;
         private IRoute routeB;
 
